@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(79, 66, 222);
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: #fff;
+  height: 100px;
+  line-height: 100px;
+}
+
+.jumbotron {
+  width: 500px;
+  margin: 50px auto;
+  border: 1px solid #000;
+  padding: 40px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 500px; */
+  justify-content: space-between;
+}
+
+input {
+  width: 300px;
+}
+
+textArea {
+  width: 400px;
+}
+
+.sbmitButton {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  background-color: rgb(79, 66, 222);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar-header {
+  color: white;
+}
+
+.deleteButton {
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  background-color: rgb(79, 66, 222);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.toroku {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.toroku a {
+  text-decoration: none;
+  display: block;
+}

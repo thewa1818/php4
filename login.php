@@ -3,23 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="css/main.css" />
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="./css/login.css" rel="stylesheet">
 <style>div{padding: 10px;font-size:16px;}</style>
 <title>ログイン</title>
 </head>
 <body>
 
+<div class="wrapper">
 <header>
-  <nav class="navbar navbar-default">LOGIN</nav>
+  <nav class="navbar navbar-default">ログイン</nav>
 </header>
 
 <!-- lLOGINogin_act.php は認証処理用のPHPです。 -->
+<div class="flexWrapper">
 <form name="form1" action="login_act.php" method="post">
-ID:<input type="text" name="lid">
-PW:<input type="password" name="lpw">
-<input type="submit" value="ログイン">
+ID<input type="text" name="lid">
+パスワード<input type="password" name="lpw">
+<input type="submit" value="ログイン" class="logonBtn">
 </form>
+</div>
+
+</div>
+
 
 
 </body>

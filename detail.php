@@ -25,7 +25,7 @@ if($status==false) {
 <head>
   <meta charset="UTF-8">
   <title>データ更新</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/detail.css" rel="stylesheet">
   <style>div{padding: 10px;font-size:16px;}</style>
 </head>
 <body>
@@ -44,15 +44,12 @@ if($status==false) {
 <!-- Main[Start] -->
 <form method="POST" action="update.php">
   <div class="jumbotron">
-   <fieldset>
-    <legend>[編集]</legend>
      <label>名前：<input type="text" name="name" value="<?=$row["name"]?>"></label><br>
      <label>Email：<input type="text" name="email" value="<?=$row["email"]?>"></label><br>
      <label>年齢：<input type="text" name="age" value="<?=$row["age"]?>"></label><br>
      <label><textArea name="naiyou" rows="4" cols="40"><?=$row["naiyou"]?></textArea></label><br>
-     <input type="submit" value="送信">
+     <input type="submit" value="登録" class="sbmitButton">
      <input type="hidden" name="id" value="<?=$id?>">
-    </fieldset>
   </div>
 </form>
 <!-- Main[End] -->

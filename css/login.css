@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+.navbar-default {
+  text-align: center;
+  padding: 30px;
+  font-size: 34px;
+}
+
+.wrapper {
+  width: 500px;
+  margin: 70px auto;
+  background-color: rgb(79, 66, 222);
+  border-radius: 8px;
+  color: #fff;
+  padding: 20px;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  display: block;
+  width: 300px;
+}
+
+.logonBtn {
+  display: block;
+  background-color: #fff;
+  width: 200px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid #fff;
+  margin: 20px auto;
+  color: rgb(79, 66, 222);
+}
